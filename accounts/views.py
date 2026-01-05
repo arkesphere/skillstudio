@@ -101,7 +101,7 @@ class ResendVerificationEmailView(APIView):
 
 
 class PasswordResetRequestView(APIView):
-    """Request password reset - sends reset token to email"""
+    """Request password reset - sends reset token to email """
     permission_classes = [AllowAny]
 
     def post(self, request):
